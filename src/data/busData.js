@@ -71,7 +71,16 @@ export const busData = {
         destination: "行橋駅東口",
         via: ["長木", "黒田", "行橋駅東口"],
         fare: 350,
-        memo: "最終便"
+        memo: "夕方便"
+      },
+      {
+        depart: "18:34",
+        arrive: "18:42",
+        line: "香春線",
+        destination: "行橋駅東口",
+        via: ["長木", "二塚", "裁判所入口", "駅前通り", "南本町", "行橋駅東口"],
+        fare: 350,
+        memo: "平日18時台の行橋駅方面最終付近"
       }
     ],
 
@@ -128,7 +137,16 @@ export const busData = {
         destination: "長木・香春方面",
         via: ["行橋駅東口", "黒田", "長木"],
         fare: 350,
-        memo: "最終便"
+        memo: "夕方の帰宅向き"
+      },
+      {
+        depart: "18:05",
+        arrive: "18:16",
+        line: "香春線",
+        destination: "新町入口",
+        via: ["行橋駅東口", "南本町", "駅前通り", "裁判所入口", "二塚", "長木"],
+        fare: 350,
+        memo: "平日18時台の長木方面最終付近"
       }
     ]
   },
@@ -361,6 +379,6 @@ export const sourceInfo = {
   revision: "2026年4月1日改正",
   lastChecked: "2026-06-23",
   lastCheckedLabel: "2026年6月23日",
-  notice: "このアプリの時刻表は参考情報です。実際に利用する前に太陽交通の公式時刻表をご確認ください。",
+  notice: "【公式情報確認必須】このアプリの時刻表は参考情報です。実際に利用する前に太陽交通の公式時刻表をご確認ください。",
   autoUpdateNotice: "このアプリは自動で時刻表を取得していません。時刻表変更時は公式情報を確認し、busData.jsを更新してください。"
 };
