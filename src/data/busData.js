@@ -4,8 +4,13 @@ export const busData = {
       {
         depart: "07:31",
         arrive: "07:40",
+        operator: "太陽交通",
         line: "香春線",
         destination: "行橋駅東口",
+        destinationDetail: "行橋駅東口行き",
+        boardingStop: "長木バス停",
+        gettingOffStop: "行橋駅東口",
+        platformNote: "長木バス停",
         via: ["長木", "黒田", "行橋駅東口"],
         fare: 350,
         memo: "朝の通院・買い物向き"
@@ -13,8 +18,13 @@ export const busData = {
       {
         depart: "09:26",
         arrive: "09:35",
+        operator: "太陽交通",
         line: "香春線",
         destination: "行橋駅東口",
+        destinationDetail: "行橋駅東口行き",
+        boardingStop: "長木バス停",
+        gettingOffStop: "行橋駅東口",
+        platformNote: "長木バス停",
         via: ["長木", "黒田", "行橋駅東口"],
         fare: 350,
         memo: "午前の買い物向き"
@@ -22,8 +32,13 @@ export const busData = {
       {
         depart: "10:39",
         arrive: "10:48",
+        operator: "太陽交通",
         line: "香春線",
         destination: "行橋駅東口",
+        destinationDetail: "行橋駅東口行き",
+        boardingStop: "長木バス停",
+        gettingOffStop: "行橋駅東口",
+        platformNote: "長木バス停",
         via: ["長木", "黒田", "行橋駅東口"],
         fare: 350,
         memo: "市役所・病院向き"
@@ -31,8 +46,13 @@ export const busData = {
       {
         depart: "11:32",
         arrive: "11:41",
+        operator: "太陽交通",
         line: "香春線",
         destination: "行橋駅・ゆめタウン方面",
+        destinationDetail: "行橋駅東口・ゆめタウン方面行き",
+        boardingStop: "長木バス停",
+        gettingOffStop: "行橋駅東口",
+        platformNote: "長木バス停",
         via: ["長木", "黒田", "行橋駅東口", "ゆめタウン"],
         fare: 350,
         memo: "買い物向き"
@@ -40,8 +60,13 @@ export const busData = {
       {
         depart: "14:08",
         arrive: "14:17",
+        operator: "太陽交通",
         line: "香春線",
         destination: "行橋駅東口",
+        destinationDetail: "行橋駅東口行き",
+        boardingStop: "長木バス停",
+        gettingOffStop: "行橋駅東口",
+        platformNote: "長木バス停",
         via: ["長木", "黒田", "行橋駅東口"],
         fare: 350,
         memo: "午後便"
@@ -49,8 +74,13 @@ export const busData = {
       {
         depart: "15:09",
         arrive: "15:18",
+        operator: "太陽交通",
         line: "香春線",
         destination: "行橋駅・ゆめタウン方面",
+        destinationDetail: "行橋駅東口・ゆめタウン方面行き",
+        boardingStop: "長木バス停",
+        gettingOffStop: "行橋駅東口",
+        platformNote: "長木バス停",
         via: ["長木", "黒田", "行橋駅東口", "ゆめタウン"],
         fare: 350,
         memo: "午後の買い物向き"
@@ -58,8 +88,13 @@ export const busData = {
       {
         depart: "16:05",
         arrive: "16:14",
+        operator: "太陽交通",
         line: "香春線",
         destination: "行橋駅東口",
+        destinationDetail: "行橋駅東口行き",
+        boardingStop: "長木バス停",
+        gettingOffStop: "行橋駅東口",
+        platformNote: "長木バス停",
         via: ["長木", "黒田", "行橋駅東口"],
         fare: 350,
         memo: "夕方便"
@@ -67,8 +102,13 @@ export const busData = {
       {
         depart: "17:02",
         arrive: "17:11",
+        operator: "太陽交通",
         line: "香春線",
         destination: "行橋駅東口",
+        destinationDetail: "行橋駅東口行き",
+        boardingStop: "長木バス停",
+        gettingOffStop: "行橋駅東口",
+        platformNote: "長木バス停",
         via: ["長木", "黒田", "行橋駅東口"],
         fare: 350,
         memo: "夕方便"
@@ -76,8 +116,13 @@ export const busData = {
       {
         depart: "18:34",
         arrive: "18:42",
+        operator: "太陽交通",
         line: "香春線",
         destination: "行橋駅東口",
+        destinationDetail: "行橋駅東口行き",
+        boardingStop: "長木バス停",
+        gettingOffStop: "行橋駅東口",
+        platformNote: "長木バス停",
         via: ["長木", "二塚", "裁判所入口", "駅前通り", "南本町", "行橋駅東口"],
         fare: 350,
         memo: "平日18時台の行橋駅方面最終付近"
@@ -88,8 +133,13 @@ export const busData = {
       {
         depart: "08:35",
         arrive: "08:44",
+        operator: "太陽交通",
         line: "香春線",
         destination: "長木・香春方面",
+        destinationDetail: "長木・香春方面",
+        boardingStop: "行橋駅東口",
+        gettingOffStop: "長木",
+        platformNote: "行橋駅東口の香春線乗り場",
         via: ["行橋駅東口", "黒田", "長木"],
         fare: 350,
         memo: "朝の帰宅便"
@@ -97,8 +147,13 @@ export const busData = {
       {
         depart: "10:30",
         arrive: "10:39",
+        operator: "太陽交通",
         line: "香春線",
         destination: "長木・香春方面",
+        destinationDetail: "長木・香春方面",
+        boardingStop: "行橋駅東口",
+        gettingOffStop: "長木",
+        platformNote: "行橋駅東口の香春線乗り場",
         via: ["行橋駅東口", "黒田", "長木"],
         fare: 350,
         memo: "午前便"
@@ -106,8 +161,13 @@ export const busData = {
       {
         depart: "10:45",
         arrive: "10:54",
+        operator: "太陽交通",
         line: "香春線",
         destination: "長木・香春方面",
+        destinationDetail: "長木・香春方面",
+        boardingStop: "行橋駅東口",
+        gettingOffStop: "長木",
+        platformNote: "行橋駅東口の香春線乗り場",
         via: ["行橋駅東口", "黒田", "長木"],
         fare: 350,
         memo: "午前便"
@@ -115,8 +175,13 @@ export const busData = {
       {
         depart: "12:32",
         arrive: "12:41",
+        operator: "太陽交通",
         line: "香春線",
         destination: "長木・香春方面",
+        destinationDetail: "長木・香春方面",
+        boardingStop: "行橋駅東口",
+        gettingOffStop: "長木",
+        platformNote: "行橋駅東口の香春線乗り場",
         via: ["行橋駅東口", "黒田", "長木"],
         fare: 350,
         memo: "昼の帰宅向き"
@@ -124,8 +189,13 @@ export const busData = {
       {
         depart: "15:09",
         arrive: "15:18",
+        operator: "太陽交通",
         line: "香春線",
         destination: "長木・香春方面",
+        destinationDetail: "長木・香春方面",
+        boardingStop: "行橋駅東口",
+        gettingOffStop: "長木",
+        platformNote: "行橋駅東口の香春線乗り場",
         via: ["行橋駅東口", "黒田", "長木"],
         fare: 350,
         memo: "午後便"
@@ -133,8 +203,13 @@ export const busData = {
       {
         depart: "16:53",
         arrive: "17:02",
+        operator: "太陽交通",
         line: "香春線",
         destination: "長木・香春方面",
+        destinationDetail: "長木・香春方面",
+        boardingStop: "行橋駅東口",
+        gettingOffStop: "長木",
+        platformNote: "行橋駅東口の香春線乗り場",
         via: ["行橋駅東口", "黒田", "長木"],
         fare: 350,
         memo: "夕方の帰宅向き"
@@ -142,8 +217,13 @@ export const busData = {
       {
         depart: "18:05",
         arrive: "18:16",
+        operator: "太陽交通",
         line: "香春線",
         destination: "新町入口",
+        destinationDetail: "新町入口方面・長木経由",
+        boardingStop: "行橋駅東口",
+        gettingOffStop: "長木",
+        platformNote: "行橋駅東口の香春線乗り場",
         via: ["行橋駅東口", "南本町", "駅前通り", "裁判所入口", "二塚", "長木"],
         fare: 350,
         memo: "平日18時台の長木方面最終付近"
@@ -156,8 +236,13 @@ export const busData = {
       {
         depart: "08:35",
         arrive: "08:50",
+        operator: "太陽交通",
         line: "香春線",
         destination: "行橋駅東口",
+        destinationDetail: "行橋駅東口行き",
+        boardingStop: "長木バス停",
+        gettingOffStop: "行橋駅東口",
+        platformNote: "長木バス停",
         via: ["長木", "黒田", "行橋駅東口"],
         fare: 350,
         memo: "始発便"
@@ -165,8 +250,13 @@ export const busData = {
       {
         depart: "10:39",
         arrive: "10:52",
+        operator: "太陽交通",
         line: "香春線",
         destination: "行橋駅・ゆめタウン方面",
+        destinationDetail: "行橋駅東口・ゆめタウン方面行き",
+        boardingStop: "長木バス停",
+        gettingOffStop: "行橋駅東口",
+        platformNote: "長木バス停",
         via: ["長木", "黒田", "行橋駅東口", "ゆめタウン"],
         fare: 350,
         memo: "ゆめタウン直行"
@@ -174,8 +264,13 @@ export const busData = {
       {
         depart: "12:32",
         arrive: "12:44",
+        operator: "太陽交通",
         line: "香春線",
         destination: "行橋駅・ゆめタウン方面",
+        destinationDetail: "行橋駅東口・ゆめタウン方面行き",
+        boardingStop: "長木バス停",
+        gettingOffStop: "行橋駅東口",
+        platformNote: "長木バス停",
         via: ["長木", "黒田", "行橋駅東口", "ゆめタウン"],
         fare: 350,
         memo: "ゆめタウン直行"
@@ -183,8 +278,13 @@ export const busData = {
       {
         depart: "15:09",
         arrive: "15:25",
+        operator: "太陽交通",
         line: "香春線",
         destination: "行橋駅東口",
+        destinationDetail: "行橋駅東口行き",
+        boardingStop: "長木バス停",
+        gettingOffStop: "行橋駅東口",
+        platformNote: "長木バス停",
         via: ["長木", "黒田", "行橋駅東口"],
         fare: 350,
         memo: "午後便"
@@ -192,8 +292,13 @@ export const busData = {
       {
         depart: "17:02",
         arrive: "17:20",
+        operator: "太陽交通",
         line: "香春線",
         destination: "行橋駅東口",
+        destinationDetail: "行橋駅東口行き",
+        boardingStop: "長木バス停",
+        gettingOffStop: "行橋駅東口",
+        platformNote: "長木バス停",
         via: ["長木", "黒田", "行橋駅東口"],
         fare: 350,
         memo: "最終便"
@@ -203,8 +308,13 @@ export const busData = {
       {
         depart: "07:20",
         arrive: "07:31",
+        operator: "太陽交通",
         line: "香春線",
         destination: "長木・香春方面",
+        destinationDetail: "長木・香春方面",
+        boardingStop: "行橋駅東口",
+        gettingOffStop: "長木",
+        platformNote: "行橋駅東口の香春線乗り場",
         via: ["行橋駅東口", "黒田", "長木"],
         fare: 350,
         memo: "始発便"
@@ -212,8 +322,13 @@ export const busData = {
       {
         depart: "09:13",
         arrive: "09:26",
+        operator: "太陽交通",
         line: "香春線",
         destination: "長木・香春方面",
+        destinationDetail: "長木・香春方面",
+        boardingStop: "行橋駅東口",
+        gettingOffStop: "長木",
+        platformNote: "行橋駅東口の香春線乗り場",
         via: ["行橋駅東口", "黒田", "長木"],
         fare: 350,
         memo: "午前便"
@@ -221,8 +336,13 @@ export const busData = {
       {
         depart: "11:21",
         arrive: "11:32",
+        operator: "太陽交通",
         line: "香春線",
         destination: "長木・新町入口方面",
+        destinationDetail: "新町入口方面・長木経由",
+        boardingStop: "行橋駅東口",
+        gettingOffStop: "長木",
+        platformNote: "行橋駅東口の香春線乗り場",
         via: ["ゆめタウン", "行橋駅東口", "黒田", "長木", "新町入口"],
         fare: 350,
         memo: "ゆめタウン発"
@@ -230,8 +350,13 @@ export const busData = {
       {
         depart: "13:56",
         arrive: "14:08",
+        operator: "太陽交通",
         line: "香春線",
         destination: "長木・香春方面",
+        destinationDetail: "長木・香春方面",
+        boardingStop: "行橋駅東口",
+        gettingOffStop: "長木",
+        platformNote: "行橋駅東口の香春線乗り場",
         via: ["ゆめタウン", "行橋駅東口", "黒田", "長木"],
         fare: 350,
         memo: "ゆめタウン発"
@@ -239,8 +364,13 @@ export const busData = {
       {
         depart: "15:53",
         arrive: "16:05",
+        operator: "太陽交通",
         line: "香春線",
         destination: "長木・新町入口方面",
+        destinationDetail: "新町入口方面・長木経由",
+        boardingStop: "行橋駅東口",
+        gettingOffStop: "長木",
+        platformNote: "行橋駅東口の香春線乗り場",
         via: ["ゆめタウン", "行橋駅東口", "黒田", "長木", "新町入口"],
         fare: 350,
         memo: "最終便"
@@ -251,6 +381,16 @@ export const busData = {
 
 export const routeInfo = {
   routeName: "太陽交通 香春線",
+  operator: "太陽交通",
+  lineName: "香春線",
+  yukuhashiBoardingStop: "行橋駅東口",
+  nagakiBoardingStop: "長木バス停",
+  mainDestinations: [
+    "行橋駅東口行き",
+    "新町入口方面",
+    "香春町役場方面"
+  ],
+  boardingNote: "乗り場・行き先は便によって異なる場合があります。実際のご利用前に太陽交通公式情報をご確認ください。",
   mainStops: [
     "ゆめタウン",
     "行橋駅東口",

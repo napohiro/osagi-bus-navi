@@ -227,6 +227,55 @@ body {
   font-weight: 600;
 }
 
+/* Next Bus — Boarding Info Block */
+.next-bus-boarding-info {
+  background: rgba(255, 255, 255, 0.15);
+  border-radius: 10px;
+  padding: 0.75rem 1.25rem;
+  margin: 1rem 0 0.5rem;
+  text-align: left;
+}
+
+.next-bus-boarding-row {
+  display: flex;
+  align-items: baseline;
+  gap: 0.75rem;
+  padding: 0.55rem 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.next-bus-boarding-row:last-child {
+  border-bottom: none;
+}
+
+.next-bus-boarding-label {
+  font-size: 1rem;
+  opacity: 0.9;
+  min-width: 90px;
+  flex-shrink: 0;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+}
+
+.next-bus-boarding-value {
+  font-size: 1.15rem;
+  font-weight: 700;
+  line-height: 1.4;
+}
+
+.next-bus-boarding-dest-row {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 6px;
+  padding: 0.65rem 0.5rem;
+  margin: 0.25rem -0.5rem;
+}
+
+.next-bus-dest-bold {
+  font-size: 1.4rem;
+  font-weight: 800;
+  line-height: 1.3;
+}
+
 /* Service ended box */
 .service-ended-box {
   background: #fff3cd;
@@ -269,6 +318,66 @@ body {
   border-radius: 8px;
   text-align: center;
   font-size: 1.2rem;
+  font-weight: 600;
+}
+
+/* Bus Card Route Header (乗るバス停 → 降りる場所) */
+.bus-card-route-header {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  background: #e8edff;
+  border-radius: 8px;
+  padding: 0.65rem 1rem;
+  margin-bottom: 0.75rem;
+  font-size: 1.15rem;
+  font-weight: 800;
+  color: #333;
+}
+
+.bus-card-route-header-past {
+  background: #efefef;
+  color: #bbb;
+}
+
+.bus-boarding-stop {
+  color: #4a5fb5;
+  flex: 1;
+  text-align: center;
+}
+
+.bus-alighting-stop {
+  color: #4a5fb5;
+  flex: 1;
+  text-align: center;
+}
+
+.bus-card-route-header-past .bus-boarding-stop,
+.bus-card-route-header-past .bus-alighting-stop {
+  color: #bbb;
+}
+
+.route-arrow {
+  color: #888;
+  font-size: 1.3rem;
+  flex-shrink: 0;
+}
+
+/* Bus detail: boarding and destination emphasis */
+.bus-detail-boarding {
+  font-weight: 700;
+  color: #4a5fb5;
+}
+
+.bus-detail-destination {
+  font-weight: 800;
+  color: #333;
+  font-size: 1.1rem;
+}
+
+.bus-card-past .bus-detail-boarding,
+.bus-card-past .bus-detail-destination {
+  color: #aaa;
   font-weight: 600;
 }
 
@@ -606,6 +715,52 @@ body {
   font-weight: 600;
   font-size: 0.95rem;
   line-height: 1.6;
+}
+
+/* Route Info — Boarding Stop Block */
+.route-boarding-block {
+  background: #f0f4ff;
+  border-radius: 8px;
+  padding: 0.75rem 1rem;
+  margin-bottom: 1rem;
+}
+
+.route-boarding-stop {
+  font-size: 1.2rem;
+  font-weight: 800;
+  color: #4a5fb5;
+}
+
+/* Route Info — Destination List */
+.route-dest-list {
+  list-style: none;
+  padding: 0;
+  margin: 0.5rem 0 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.route-dest-item {
+  background: #e8edff;
+  color: #333;
+  font-size: 1.05rem;
+  font-weight: 700;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  border-left: 4px solid #667eea;
+}
+
+/* Route Info — Boarding Note */
+.route-boarding-note {
+  background: #fff8e1;
+  border: 2px solid #ffc107;
+  border-radius: 8px;
+  padding: 0.75rem 1rem;
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: #856404;
+  margin-bottom: 1rem;
 }
 
 /* Official links */

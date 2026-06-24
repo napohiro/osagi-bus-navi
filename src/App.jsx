@@ -131,7 +131,26 @@ function App() {
             <div className={`next-bus-card ${isWithinTenMinutes(minutesUntil) ? 'urgent' : ''}`}>
               <div className="next-bus-label">次の出発</div>
               <div className="next-bus-time">{nextBus.depart}</div>
-              <div className="next-bus-destination">{nextBus.destination}</div>
+
+              <div className="next-bus-boarding-info">
+                <div className="next-bus-boarding-row">
+                  <span className="next-bus-boarding-label">乗るバス停</span>
+                  <span className="next-bus-boarding-value">{nextBus.boardingStop}</span>
+                </div>
+                <div className="next-bus-boarding-row">
+                  <span className="next-bus-boarding-label">路　　　線</span>
+                  <span className="next-bus-boarding-value">{nextBus.operator}　{nextBus.line}</span>
+                </div>
+                <div className="next-bus-boarding-row next-bus-boarding-dest-row">
+                  <span className="next-bus-boarding-label">行　き　先</span>
+                  <span className="next-bus-boarding-value next-bus-dest-bold">{nextBus.destinationDetail || nextBus.destination}</span>
+                </div>
+                <div className="next-bus-boarding-row">
+                  <span className="next-bus-boarding-label">降りる場所</span>
+                  <span className="next-bus-boarding-value">{nextBus.gettingOffStop}</span>
+                </div>
+              </div>
+
               <div className="next-bus-info">
                 <div className="info-box">
                   <div className="info-box-label">到着目安</div>
@@ -185,6 +204,13 @@ function App() {
                     {isNextBusCard && <span className="badge badge-next">次のバス</span>}
                     {isPast && <span className="badge badge-past">出発済</span>}
                   </div>
+
+                  <div className={`bus-card-route-header ${isPast ? 'bus-card-route-header-past' : ''}`}>
+                    <span className="bus-boarding-stop">{bus.boardingStop}</span>
+                    <span className="route-arrow">→</span>
+                    <span className="bus-alighting-stop">{bus.gettingOffStop}</span>
+                  </div>
+
                   <div className="bus-time-row">
                     <div className={`bus-departure ${isPast ? 'text-past' : ''}`}>{bus.depart}</div>
                     <div className="bus-arrow">→</div>
@@ -192,12 +218,20 @@ function App() {
                   </div>
                   <div className="bus-details">
                     <div className="bus-detail-item">
+                      <div className="bus-detail-label">乗り場</div>
+                      <div className="bus-detail-value bus-detail-boarding">{bus.boardingStop}</div>
+                    </div>
+                    <div className="bus-detail-item">
                       <div className="bus-detail-label">路線</div>
-                      <div className="bus-detail-value">{bus.line}</div>
+                      <div className="bus-detail-value">{bus.operator}　{bus.line}</div>
                     </div>
                     <div className="bus-detail-item">
                       <div className="bus-detail-label">行先</div>
-                      <div className="bus-detail-value">{bus.destination}</div>
+                      <div className="bus-detail-value bus-detail-destination">{bus.destinationDetail || bus.destination}</div>
+                    </div>
+                    <div className="bus-detail-item">
+                      <div className="bus-detail-label">降車</div>
+                      <div className="bus-detail-value">{bus.gettingOffStop}</div>
                     </div>
                     <div className="bus-detail-item">
                       <div className="bus-detail-label">経由</div>
@@ -291,6 +325,29 @@ function App() {
           <div className="info-section">
             <div className="info-section-title">路線名</div>
             <div className="info-section-content">{routeInfo.routeName}</div>
+          </div>
+
+          <div className="info-section route-boarding-block">
+            <div className="info-section-title">行橋駅側の乗り場</div>
+            <div className="info-section-content route-boarding-stop">{routeInfo.yukuhashiBoardingStop}</div>
+          </div>
+
+          <div className="info-section route-boarding-block">
+            <div className="info-section-title">長木側の乗り場</div>
+            <div className="info-section-content route-boarding-stop">{routeInfo.nagakiBoardingStop}</div>
+          </div>
+
+          <div className="info-section">
+            <div className="info-section-title">主な行先</div>
+            <ul className="route-dest-list">
+              {routeInfo.mainDestinations.map((dest, i) => (
+                <li key={i} className="route-dest-item">{dest}</li>
+              ))}
+            </ul>
+          </div>
+
+          <div className="info-section route-boarding-note">
+            <div className="info-section-content">⚠️ {routeInfo.boardingNote}</div>
           </div>
 
           <div className="info-section">
